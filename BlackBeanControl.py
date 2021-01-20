@@ -260,12 +260,12 @@ if __name__ == "__main__":
         elif Option in ('-t', '--timeout'):
             AlternativeTimeout = Argument
 
-        execute_command(
-        SentCommand, 
-        DeviceName=DeviceName,
-        ReKeyCommand=ReKeyCommand, 
-        AlternativeIPAddress=AlternativeIPAddress,
-        AlternativePort=AlternativePort,
-        AlternativeMACAddress=AlternativeMACAddress,
-        AlternativeTimeout=AlternativeTimeout
-        )
+    execute_command(
+      SentCommand, 
+      DeviceName=DeviceName,
+      ReKeyCommand=ReKeyCommand, 
+      AlternativeIPAddress=AlternativeIPAddress,
+      AlternativePort=AlternativePort,
+      AlternativeMACAddress=AlternativeMACAddress,
+      AlternativeTimeout=AlternativeTimeout
+    )
