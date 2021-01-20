@@ -140,3 +140,4 @@ $RECYCLE.BIN/
 
 #PyCharm config dir
 .idea
+.vscode/
